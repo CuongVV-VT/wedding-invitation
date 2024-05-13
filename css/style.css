@@ -47,7 +47,7 @@ body {
 }
 .qr-code{
   top: 50%;
-  right: -75px;
+  right: -85px;
 ;
   transform: translateY(-50%) translateX(-50%);
 }
