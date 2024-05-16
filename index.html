@@ -160,6 +160,12 @@
         }
     });
 </script>
+<script>
+    document.getElementById('attendButton').addEventListener('click', function() {
+        window.open('https://docs.google.com/forms/d/1C_aXdnFQFSE64VvPHpHr6FbqsERM9w9PL_QqOOmSDF8/edit', '_blank');
+    });
+</script>
+	
 <header id="fh5co-header" class="fh5co-cover" role="banner"
         style="background-image:url(images/background/header-bg.jpg);" data-stellar-background-ratio="0.5">
     <div class="overlay"></div>
@@ -517,7 +523,7 @@
             </div>
             <div class="col-md-10 col-md-offset-1">
                 <div class="col-md-offset-4 col-sm-4 ">
-                    <button type="submit" class="btn btn-default btn-block">I am Attending</button>
+                    <button type="submit" id="attendButton" class="btn btn-default btn-block">I am Attending</button>
                 </div>
             </div>
         </div>
